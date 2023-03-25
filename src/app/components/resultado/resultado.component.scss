@@ -1,0 +1,57 @@
+h2 {
+  text-align: center;
+  color: wheat;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.fondoItem {
+  background-color: #FF111328;
+  height: 430px;
+  border-radius: 20px;
+  color: wheat;
+}
+
+.resultado {
+  color: #128D45;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.estiloNumero{
+  font-size: 80px;
+  font-weight: 700;
+  padding-top: 25px;
+  padding-bottom: 45px;
+}
+
+.interpretacion {
+  margin: 10px;
+  font-size: 20px;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  color: wheat;
+
+  p {
+    font-weight: bold;
+  }
+}
+
+.btn-color {
+  margin-top: 15px;
+  background-color: #ff3366;
+  border-color: white;
+  border-radius: 25px;
+  width: 100%;
+  &:hover {
+    background-color: #f67701;
+  }
+}
+

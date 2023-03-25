@@ -42,10 +42,10 @@
               {{peso}}
             </div>
             <div class="simbols">
-              <button>
+              <button (click)="sumarPeso()">
                 <i class="bi bi-plus"></i>
               </button>
-              <button>
+              <button (click)="resPeso()">
                 <i class="bi bi-dash"></i>
               </button>
             </div>
@@ -60,10 +60,10 @@
               {{edad}}
             </div>
             <div class="simbols">
-              <button>
+              <button (click)="sumarEdad()">
                 <i class="bi bi-plus"></i>
               </button>
-              <button>
+              <button (click)="resEdad()">
                 <i class="bi bi-dash"></i>
               </button>
             </div>
@@ -72,9 +72,11 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-12"><button class="btn btn-primary btn-lg btn-block btn-color">
-        Calcular
-      </button></div>
+      <div class="col-lg-12">
+        <button (click)="calcularBMI()" routerLink="/resultado" class="btn btn-primary btn-lg btn-block btn-color">
+        CALCULAR
+      </button>
+    </div>
     </div>
   </div>
 </div>
